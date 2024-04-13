@@ -1,4 +1,4 @@
-import { SectionSvg } from "../assets/svg";
+import SectionSvg from "../assets/svg/SectionSvg";
 
 const Section = ({
   className,
@@ -10,8 +10,8 @@ const Section = ({
 }) => {
   return (
     <div
-      className={`relative ${customPadding || "py-10"} lg:py-16 xl:py-20 ${
-        className || "*:"
+      className={`relative ${customPadding || "py-10 lg:py-16 xl:py-20"}  ${
+        className || ""
       }`}
       id={id}
     >
